@@ -1,0 +1,178 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: cursive;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color:white;
+    background-color:#111111;
+}
+button,a{
+    cursor: pointer;
+}
+h3{
+    text-align:center;
+}
+h2{
+    font-size:40px;
+    text-align:center;
+}
+.pTop{
+    text-align:center;
+    font-size: small;
+}
+h1{
+    text-align: center;
+    font-size:40px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}   
+
+.input{
+    width:300px;
+    height:50px;
+    background:#454242;
+    border:#454242;
+    border-radius: 5px; 
+    padding:10px;
+    color: beige;
+}
+.input:active{
+    border: #454242;
+}
+h5{
+    color:#454242;
+}
+button{
+    width:300px;
+    height:50px;
+    background:#005913;
+    border:#005913;
+    border-radius:5px;
+    margin-top:20px;
+    color:white;
+}
+a{
+    color:#005913;
+}
+.login-link{
+    color:#454242;
+    text-decoration-line: none;
+}
+.formAll{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.register{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+/* Login page */
+.h5-forgot{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+}
+/* Home,about,contact */
+.all{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+/* a. header */
+.header{
+    background: #383838;
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+.pages-available{
+    display: flex;
+    flex-direction: row;
+}
+#button-header-home{
+    background-color: #383838;
+    width: 60px;
+    padding: 0;
+    position: relative;
+    top: -8px;
+}
+.logo{
+    font-weight: bolder;
+    font-size: xx-large;
+    position: relative;
+    top: 5px;
+    left: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+#button-header-home>a{
+    text-decoration: none;
+    color: white;
+}
+/* body */
+.body{
+    width: 90%;
+}
+/* follow us */
+/* CSS to style the .follow-us div */
+.follow-us {
+    position: relative;
+    background-image: url('./Images/mountain.png');
+    border-radius: 5px;
+    padding: 15px;
+    color: white; /* Set the color for the text inside the div */
+    font-weight: bold;
+    text-align: center;
+}
+
+/* CSS to create the background color in front of the background image */
+.follow-us::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #002323; /* Set the background color to #29D9D5 */
+    border-radius: 5px;
+    z-index: 1; /* Ensure the color is in front of the background image (higher z-index) */
+    mix-blend-mode: screen; /* Keep the background image visible */
+}
+
+
+.book{
+    text-decoration: none;
+    color: #29D9D5;
+    font-weight: bold;
+    
+}
+.button-book{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.book-book{
+    border-radius: 50px;
+    border: 2px solid #29D9D5;
+    background: none;
+    width: 75px;
+    
+}
